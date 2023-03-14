@@ -1,19 +1,20 @@
 <script>
 	import '../app.css';
+	import '../index.css';
 
 	const NAVIGATION_MENUS = [
 		{ name: 'home', page: '/' },
 		{ name: 'intro', page: '/01-intro' },
 		{ name: 'base-syntax', page: '/02-base-syntax' },
-		{ name: 'cond-loops', page: '/03-cond-loops' }
+		{ name: 'cond-loops', page: '/03-cond-loops' },
+		{ name: 'more-on-reactivity', page: '/04-more-on-reactivity' }
 	];
 </script>
 
-<div>
-	<a href="/">home</a>
-	<a href="/01-intro">intro</a>
-	<a href="/02-base-syntax">base-syntax</a>
-	<a href="/03-cond-loops">cond-loops</a>
+<div class="py-3">
+	{#each NAVIGATION_MENUS as menu}
+		<a class="font-bold pr-3 hover:text-gray-500" href={menu.page}>{menu.name}</a>
+	{/each}
 </div>
 
 <slot />
