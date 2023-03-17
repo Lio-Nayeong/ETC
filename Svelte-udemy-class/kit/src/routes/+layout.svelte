@@ -7,14 +7,19 @@
 		{ name: 'intro', page: '/01-intro' },
 		{ name: 'base-syntax', page: '/02-base-syntax' },
 		{ name: 'cond-loops', page: '/03-cond-loops' },
-		{ name: 'more-on-reactivity', page: '/04-more-on-reactivity' }
+		{ name: 'more-on-reactivity', page: '/04-more-on-reactivity' },
+		{ name: 'prj-basics', page: '/05-prj-basics' }
 	];
 </script>
 
-<div class="py-3">
+<div class="py-2 h-12 fixed top-0 left-0 ">
 	{#each NAVIGATION_MENUS as menu}
-		<a class="font-bold pr-3 hover:text-gray-500" href={menu.page}>{menu.name}</a>
+		<a class="font-bold px-3 hover:text-gray-500 leading-6 py-1 float-left border" href={menu.page}
+			>{menu.name}</a
+		>
 	{/each}
 </div>
 
-<slot />
+<div class="pt-16">
+	<slot />
+</div>
