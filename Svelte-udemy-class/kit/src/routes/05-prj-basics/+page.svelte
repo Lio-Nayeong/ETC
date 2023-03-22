@@ -1,9 +1,9 @@
 <script>
-	import Header from '../../components/meetups/ui/Header.svelte';
-	// import MeetupItem from '../../components/meetups/MeetupItem.svelte';
-	import MeetupGrid from '../../components/meetups/MeetupGrid.svelte';
-	import TextInput from '../../components/meetups/ui/TextInput.svelte';
-	import Button from '../../components/meetups/ui/Button.svelte';
+	import Header from '../../components/05-meetups/ui/Header.svelte';
+	// import MeetupItem from '../../components/05-meetups/MeetupItem.svelte';
+	import MeetupGrid from '../../components/05-meetups/MeetupGrid.svelte';
+	import TextInput from '../../components/05-meetups/ui/TextInput.svelte';
+	import Button from '../../components/05-meetups/ui/Button.svelte';
 
 	let title = '';
 	let subtitle = '';
