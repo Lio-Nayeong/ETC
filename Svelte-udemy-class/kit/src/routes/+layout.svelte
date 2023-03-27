@@ -9,7 +9,8 @@
 		{ name: 'cond-loops', page: '/03-cond-loops' },
 		{ name: 'more-on-reactivity', page: '/04-more-on-reactivity' },
 		{ name: 'prj-basics', page: '/05-prj-basics' },
-		{ name: 'cmp', page: '/06-cmp' }
+		{ name: 'cmp', page: '/06-cmp' },
+		{ name: 'prj-cmp', page: '/07-prj-cmp' }
 	];
 </script>
 
