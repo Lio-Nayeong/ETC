@@ -1,7 +1,7 @@
 <script>
 	import CustomInput from '../../components/08-bind/CustomInput.svelte';
 	import Toggle from '../../components/08-bind/Toggle.svelte';
-	import { isValidEmail } from './validation.js';
+	import { isValidEmail } from '../../components/08-bind/validation.js';
 
 	let val = 'Kim';
 	let selectedOption = 1;
