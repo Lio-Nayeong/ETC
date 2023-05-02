@@ -12,7 +12,8 @@
 		{ name: 'cmp', page: '/06-cmp' },
 		{ name: 'prj-cmp', page: '/07-prj-cmp' },
 		{ name: 'bind-form', page: '/08-bind-form' },
-		{ name: 'prj-form', page: '/09-prj-form' }
+		{ name: 'prj-form', page: '/09-prj-form' },
+		{ name: 'stores', page: '/10-stores' }
 	];
 </script>
 
